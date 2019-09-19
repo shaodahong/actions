@@ -9,7 +9,7 @@ jobs:
     name: Welcome comment
     runs-on: ubuntu-latest
     steps:
-     - name: Create Welcome Comment
+      - name: Create Welcome Comment
         uses: shaodahong/github-action/create-comment
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
