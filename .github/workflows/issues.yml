@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create Welcome Comment
-        uses: shaodahong/github-action/create-comment
+        uses: shaodahong/github-action/create-comment@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue: ${{ github.event.issue.number }}
