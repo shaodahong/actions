@@ -1,5 +1,5 @@
 const cp = require("child_process");
-cp.execSync('npm ci');
+cp.execSync(`cd ../${__dirname}; npm ci`);
 
 const core = require('@actions/core')
 const github = require('@actions/github')
