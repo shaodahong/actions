@@ -5,6 +5,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - uses: actions/setup-node@master
         with:
           registry-url: 'https://npm.pkg.github.com'
