@@ -1,5 +1,5 @@
 {
-  "name": "@dahong/action",
+  "name": "@dahong/actions",
   "version": "0.0.1",
   "main": "index.js",
   "repository": "git@github.com:shaodahong/github-action.git",
