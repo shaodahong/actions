@@ -9,7 +9,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-          registry-url: https://npm.pkg.github.com
-      - run: npm publish --access public
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@shaodahong'
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
