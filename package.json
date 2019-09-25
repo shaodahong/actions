@@ -2,7 +2,7 @@
   "name": "@shaodahong/actions",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "git@github.com:shaodahong/github-action.git",
+  "repository": "git@github.com:shaodahong/actions.git",
   "author": "shao <darryshaw@gmail.com>",
   "license": "MIT",
   "dependencies": {
