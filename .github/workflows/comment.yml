@@ -9,6 +9,7 @@ jobs:
         id: check
         with:
           trigger: '@deploy'
+          reaction: rocket
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       - run: 'echo Found it!'
