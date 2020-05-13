@@ -1,5 +1,9 @@
 name: Comment
-on: push
+on:
+  pull_request:
+    types: [opened]
+  issue_comment:
+    types: [created]
 
 jobs:
   deploy:
