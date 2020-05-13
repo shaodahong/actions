@@ -7,3 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: echo 'hello'
+    if: github.event.comment === '/test'
